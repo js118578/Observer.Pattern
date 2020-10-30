@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Observer.Data.Subscriber.File\Observer.Data.Subscriber.File.csproj" />
+    <ProjectReference Include="..\Observer.Data.Subscriber.Logging\Observer.Data.Subscriber.Logging.csproj" />
+    <ProjectReference Include="..\Observer.Data.Subscriber.MySql\Observer.Data.Subscriber.MySql.csproj" />
+    <ProjectReference Include="..\Observer.Data.Subscriber.Sql\Observer.Data.Subscriber.Sql.csproj" />
+    <ProjectReference Include="..\Observer.Models\Observer.Models.csproj" />
+  </ItemGroup>
+
+</Project>
